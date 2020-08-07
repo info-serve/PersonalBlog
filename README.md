@@ -33,6 +33,6 @@ npm install --save connect-history-api-fallback
 ### 前端：
 - 主要使用:vue、vuex、axios、vue的路由配置
 
-# 【注意】该项目没数据库运用创建说明
+### 【注意】该项目没数据库运用创建说明
 
 
