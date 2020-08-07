@@ -1,0 +1,21 @@
+{
+  "name": "uo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "connect-history-api-fallback": "^1.6.0",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.5",
+    "mysql": "^2.18.1",
+    "svg-captcha": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.27"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
