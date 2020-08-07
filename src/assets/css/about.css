@@ -1,0 +1,59 @@
+.description{
+    width: 96%;
+    background-color: #fff;
+    padding: 10px 15px 20px 15px;
+    border-radius: 5px;
+   box-shadow: 1px 2px 2px #888;
+}
+.myAbout{
+    width: 95%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #232;
+    text-align: left;
+    padding: 10px 20px;
+    margin:20px 0 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+.description .msg p{
+    margin: 5px;
+    padding: 0 0 0 10px;
+    text-align: left;
+}
+.blog_comments{
+    width: 100%;
+    /* background-color: #fff; */
+    color: #000;
+}
+.blog_msgs{
+    margin-top: 20px;
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+
+}
+.blog_comment{
+    width: 95%;
+    background-color: #d9edf7;
+    border: 1px dashed #7ea4c1;
+    padding: 10px 10px 20px 10px;
+    margin-top: 10px;
+    text-align: left;
+
+}
+.blog_comment> span{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    color: #4462e4;
+}
+.blog_comment> span >.we{
+    color: #888;
+}
+.blog_comment > .reCentent{
+    width: 100%;
+    padding-left:10px ;
+    margin: 5px 0;
+    cursor: pointer;
+}

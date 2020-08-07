@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  body,html{
+      font-size: 16px;
+      /* color: rgb(243, 36, 36); */
+      text-align: center;
+      width: 100%;
+      background-color: #eee;
+      overflow-x: hidden;
+
+  }
+  div{
+      display: block;
+  }
+  .header{
+    overflow: hidden;
+
+  }
+  .contents{
+      width: 100%;
+      background-color: #ddd;
+      border-bottom: 2px solid #f38e96;
+
+      box-sizing: border-box;
+  }
+.header .contents .container{
+    position: relative;
+    margin: 0 auto;
+    max-width: 1190px;
+    height: 50px;
+    background-color: #ddd;
+    /* border: 1px solid; */
+}
+.title{
+    /* display: inline-block; */
+    float: left;
+    line-height: 50px;
+    color: #000;
+}
+.dd{
+    margin:0 25px;
+}
+.login{
+    font-size: 14px;
+    padding: 0 10px;
+
+}
+.asd::after{
+    content: "";
+    position: absolute;
+    top:50%;
+    left: 46px;
+    display: inline-block;
+    margin-top: -10px;
+    height: 20px;
+    width: 2px;
+    background-color: #eee;
+}
+.login:hover{
+    color: #f40;
+}
+.center >.item{
+    /* display: inline-block; */
+      float: left;
+      width: 70px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+
+
+}
+a{
+    color: #012;
+}
+.center > li:hover {
+    background-color: #8ca4f3;
+}
+
+.search > input ,.search > .btn{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 90px;
+    height: 30px;
+    margin-top:-15px;
+    outline: none;
+
+}
+
+.search > input{
+    width: 200px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-left: 15px;
+    border: 1px solid #746beb;
+    box-sizing: border-box;
+
+
+}
+.search > .btn{
+right: 30px;
+width: 60px;
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+cursor: pointer;
+background-color: #746beb;
+color: #fff;
+border: 0;
+padding: 5px 0;
+}
+.search > .btn:hover{
+    background-color: #62745d;
+}
+.contents .container::after,.center::after,.search::after{
+    content: "";
+    display:table;
+    clear: both;
+}
+.content{
+    display: inline-block;
+    position: relative;
+    width:1190px ;
+    margin: 30px auto 0px auto;
+    /* background-color: #daf; */
+}
+.content_left{
+    float: left;
+    width: 66%;
+    padding: 0 20px 0 0;
+    box-sizing: border-box;
+    /* border: solid rgb(114, 17, 17); */
+
+}
+
+.content_right{
+    float: right;
+    width: 34%;
+    padding: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    /* border: solid #000; */
+}
+.right-module{
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    color: #254;
+    border-radius: 5px;
+    text-align: left;
+    padding: 10px 15px 15px 15px;
+    margin-bottom: 20px;
+
+}
+.right-module div{
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    /* border-bottom: 1px solid #f5f5f5; */
+  }
+  .right-module div a{
+        word-break: break-all;
+        word-wrap: break-word;
+        padding: 6px;
+  }
+  .right-module >ul>.items:hover a{
+      color: #f38e96;
+  }
+  .right-module >ul >.items{
+      /* position: relative; */
+      width: 100%;
+      padding: 8px 0;
+      border-bottom: 1px solid #f5f5f5;
+  cursor: pointer;
+    }
+  .right-module >ul >.items:last-of-type{
+      border: 0;
+  }
+  .right-module  >div.name_id{
+      position: relative;
+       padding: 5px 0;
+}
+.right-module   ul .items .name_id span,
+.right-module ul .items .date_time{
+    font-size: 14px;
+    color: #7c8185;
+}
+.right-module >ul>.items >p{
+    width: 100%;
+    font-size: 14px;
+    color: #233;
+}
+.time_date{
+position: absolute;
+right: 15px;
+/* top: 0; */
+}
+.right-module ul .items .date_time{
+    float: right;
+    margin-top: -20px;
+}
+.right-module ul .items .date_time::after,.content_left::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.page_tool{
+    margin-top:15px ;
+}
+.page_tool ul .items{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    background-color: #fff;
+    color: #000;
+    margin: 0 5px;
+    text-align: center;
+    line-height:30px ;
+    cursor: pointer;
+}
+.page_tool ul .items.active{
+    background-color: #4699e6;
+    color: #fff;
+}
+.page_tool ul .items:hover{
+    background-color: #0452f8;
+    color: #fff;
+
+}

@@ -1,0 +1,198 @@
+.everyday{
+  /* position: relative; */
+  width: 100%;
+  text-align: center;
+  border-radius:10px ;
+  background-color: #fff;
+  padding: 15px 20px;
+  box-shadow: 3px 4px 3px #eee;
+  box-sizing: border-box;
+  color: #888;
+}
+
+.everyday .gg span{
+  display: inline-block;
+  width: 300px;
+  height: 50px;
+  border: 1px solid ;
+
+}
+.everyday span h3{
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #090cd4;
+  text-align: left;
+
+}
+.everyday .mv h6{
+  float: right;
+  margin-top:-30px ;
+  cursor: pointer;
+}
+
+.everyday  p{
+  font-size: 16px;
+  text-indent: 0.5rem;
+  text-align: left;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+.article_list{
+  width: 100%;
+  border-radius: 10px;
+}
+.article{
+    margin-top: 10px;
+    background-color: #fff;
+    box-shadow: 1px 3px 2px #888;
+    overflow: hidden;
+    text-align: left;
+
+
+}
+.article .article_content{
+  padding:0 10px 15px 10px;
+  font-size: 14px;
+  word-break: break-all;
+  word-wrap: break-word;
+  overflow: hidden;
+  color: #13202b;
+  padding-left: 25px;
+}
+.article_title{
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  line-height: 50px;
+  padding: 0 15px;
+  text-align: left;
+  border-bottom: 1px solid #e2e2d7;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-sizing: border-box;
+  background-color: #efe;
+}
+.article_title:hover{
+  color: #f03131;
+  cursor: pointer;
+}
+.tags-ing ,
+.article_title,
+.right-module >ul >.items,
+.right-module >ul>.items >p{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.article_footer{
+  width: 100%;
+  height: 20px;
+  cursor: pointer;
+  padding: 10px;
+  color: #213;
+  background-color: #f1fafa;
+}
+.article_footer .items {
+  display: inline-block;
+  margin-right: 5px;
+  line-height: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+.article_footer .tags-ing{
+  text-align: left;
+  width: 260px;
+}
+
+.wrappers {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+
+}
+
+.wrappers .cont {
+  /* position:absolute; */
+  width: 900px;
+  height: 800px;
+  margin: 100px auto;
+  background-color: #fff;
+  color: #888;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.wrappers .cont .scoll {
+  width: 100%;
+  height: 85%;
+  overflow-y: scroll;
+}
+
+.wrappers .cont .scoll::-webkit-scrollbar {
+  width: 1px;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.wrappers .cont  .top {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  font-size: 700;
+  border-bottom: 2px solid #888;
+  /* border: 1px solid; */
+}
+
+.wrappers .cont  .top span {
+  float: right;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.wrappers .cont  .top span::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.wrappers .cont .scoll ul {
+  margin-top: 15px;
+}
+
+.wrappers .cont .scoll ul>li {
+  width: 90%;
+  background-color: #e9eff3;
+  /* border: 1px solid #000; */
+  box-sizing: border-box;
+  margin: 0px auto 10px auto;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.wrappers .cont .scoll ul>li>div {
+  padding: 5px;
+}
+
+.wrappers .cont .scoll ul>li>.time_ing {
+  color: #f40;
+  border-bottom: 1px solid #faf9f9;
+}
+
+.wrappers .cont .scoll ul>li>.time_ing>span {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.wrappers .cont .scoll ul>li>.content_data {
+  width: 100%;
+  word-wrap: break-word;
+  word-break: break-all;
+}
